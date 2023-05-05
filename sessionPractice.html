@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session practice</title>
+  </head>
+  <body>
+    <!-- problem 1 -->
+    <!-- <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        guvi
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <div>
+                <div>
+                Guvi Geek Network
+                </div>
+            </div>
+        </div>
+    </body>
+</html> 
+-->
+
+    <!-- problem 2 -->
+    <!-- <html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body>
+    guvi
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      <div>
+        <div>Guvi Geek Network</div>
+      </div>
+    </div>
+  </body>
+</html> -->
+
+    <h1>3) Contact us form</h1>
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" />
+      <br />
+      <br />
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" />
+      <br />
+      <br />
+      <label for="phone">Contact No:</label>
+      <input type="email" id="email" />
+      <br />
+      <br />
+      <label for="comment">Comment :</label>
+      <br />
+      <textarea name="comment" id="comment" cols="30" rows="2"></textarea>
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+    <hr />
+    <h1>4) Un-ordered & Ordered list</h1>
+    <ul>
+      <li>Programming Language</li>
+      <ul>
+        <li>JavaScript</li>
+        <ol type="a">
+          <li>Angular</li>
+          <li>React</li>
+          <li>Vue.js</li>
+        </ol>
+        <li>Python</li>
+        <ol type="a">
+          <li>Django Framework</li>
+          <li>Flask Framework</li>
+        </ol>
+        <li>Java</li>
+        <ol type="a">
+          <li>Spring</li>
+          <li>Maven</li>
+          <li>Hibernate</li>
+        </ol>
+      </ul>
+      <li>Database</li>
+      <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+      </ul>
+    </ul>
+    <h4>
+      5) Create an element that helps you to open the https://google.com in
+      separate new tab.
+    </h4>
+    <a href="https://google.com" target="_blank">Google</a>
+    <h4>
+      6) In the form, add two radio buttons with grouping them for employee
+      type(Salaried and own business)
+    </h4>
+    <form action="#">
+      <input type="radio" name="employee" id="Salaried" /><label for="Salaried"
+        >Salaried</label
+      ><br />
+      <input type="radio" name="employee" id="business" /><label for="business"
+        >Business</label
+      >
+    </form>
+    <h4>
+      7) Design form shown in the link
+      (http://evc-cit.info/cit040/formguide/card_0.png)
+    </h4>
+    link not working.
+    <h4>8) Use the table tag to design given image Click here.</h4>
+    <table style="border-collapse: collapse" border="2">
+      <caption>
+        Health Chart
+      </caption>
+      <tr>
+        <th rowspan="2">State of Health</th>
+        <th colspan="2">Fasting Value</th>
+        <th rowspan="2">After Eating</th>
+      </tr>
+      <tr>
+        <th>Minimum</th>
+        <th>Maximum</th>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>70</td>
+        <td>100</td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-Diabetes</td>
+        <td>101</td>
+        <td>126</td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>More than 126</td>
+        <td>N/A</td>
+        <td>More than 140</td>
+      </tr>
+    </table>
+    <h4>
+      9) Write HTML input tags snippet to show default values for all Form
+      elements.
+    </h4>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" /><br />
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br />
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br />
+      <br />
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" /><br />
+      <br />
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female" selected>Female</option>
+        <option value="other">Other</option></select
+      ><br />
+      <br />
+      <label for="interests">Interests:</label><br />
+      <input
+        type="checkbox"
+        id="interests1"
+        name="interests"
+        value="reading"
+        checked
+      />
+      <label for="interests1">Reading</label><br />
+      <input type="checkbox" id="interests2" name="interests" value="music" />
+      <label for="interests2">Music</label><br />
+      <br />
+      <label for="live">Live:</label><br />
+      <input type="radio" id="online" name="live" /><label for="online"
+        >Online</label
+      ><br />
+      <input type="radio" id="offline" name="live" /><label for="offline"
+        >Offline</label
+      ><br />
+      <br />
+      <label for="color">Color picker:</label>
+      <input type="color" id="color" />
+      <br />
+      <br />
+      <label for="Date">Date picker:</label>
+      <input type="date" id="Date" />
+      <br />
+      <br />
+      <label for="week">Week picker:</label>
+      <input type="week" id="week" />
+      <br />
+      <br />
+      <label for="month">Month picker:</label>
+      <input type="month" id="month" />
+      <br />
+      <br />
+      <label for="time">Time picker:</label>
+      <input type="time" id="time" />
+      <br />
+      <br />
+      <label for="range">Range:</label>
+      <input type="range" id="range" />
+      <br />
+      <br />
+      <label for="file">File:</label>
+      <input type="file" id="file" multiple />
+      <br />
+      <br />
+      <label for="comments">Comments:</label><br />
+      <textarea id="comments" name="comments" rows="4" cols="50">
+I love this website!</textarea
+      ><br />
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <h4>
+      10) In your, HTML page add the below line and Highlight it without using
+      any CSS.
+    </h4>
+    <ul>
+      <li>
+        <mark><u>"HTML & CSS is awesome"</u></mark>
+      </li>
+    </ul>
+    <br />
+    <h4>
+      11)Create an HTML page, which should contain all types of input elements.
+    </h4>
+    already done on above 9th problem.
+
+    <div>
+      <h2>Images</h2>
+      <img
+        src="data:image/jpeg;base64,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"
+        alt="google"
+      />
+      <img src="./images/Untitled.png" alt="google" width="250px" />
+    </div>
+  </body>
+</html>
